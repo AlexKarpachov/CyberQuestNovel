@@ -1,0 +1,24 @@
+@back Street
+@char Goodwin position:-8.5,-5 scale:0.7
+{PlayerName}: (What a nice young lady! Maybe she may help me to find the way to the city port. Perhaps, I should talk to her.)
+
+@back City1
+{PlayerName}: Hello, charming. Maybe you can help me?
+
+@char Aliscent position:-8.5,-5 scale:0.7
+@hide Goodwin
+Aliscent: Hi. Of course. What's your problem?
+
+@char Goodwin position:-8.5,-5 scale:0.7
+@hide Aliscent
+{PlayerName}: I need to find someone who knows how to get to the city port.
+
+@char Aliscent position:-8.5,-5 scale:0.7
+@hide Goodwin
+Aliscent: You could talk to George. He often knows more than others. You'll find him at the city market.
+
+@char Goodwin position:-8.5,-5 scale:0.7
+@hide Aliscent
+{PlayerName}: Thank you, I'm on my way.
+
+@stop
