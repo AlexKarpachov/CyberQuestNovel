@@ -21,4 +21,7 @@ Aliscent: You could talk to George. He often knows more than others. You'll find
 @hide Aliscent
 {PlayerName}: Thank you, I'm on my way.
 
+@hide Goodwin
+@wait 0.5
+@goto Location2
 @stop

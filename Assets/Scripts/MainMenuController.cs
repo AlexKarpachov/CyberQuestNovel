@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class MainMenuController : MonoBehaviour
 {
     [SerializeField] GameObject variableInputUI;
+    [SerializeField] Canvas mainMenuCanvas;
     [SerializeField] Button startButton;
     [SerializeField] VariableInputPanel variableInputPanel;
     [SerializeField] InputField nameInputField;
@@ -37,6 +38,14 @@ public class MainMenuController : MonoBehaviour
 
         var scriptPlayer = Engine.GetService<IScriptPlayer>();
         await scriptPlayer.PreloadAndPlayAsync("Location1");
+    }
+
+    public async void OnSceneLoadedAction()
+    {
+        mainMenuCanvas.enabled = false;
+
+        var scriptPlayer = Engine.GetService<IScriptPlayer>();
+        await scriptPlayer.PreloadAndPlayAsync("Location2.1");
     }
 
     public void QuitGame()

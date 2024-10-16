@@ -1,0 +1,6 @@
+@back City1
+
+@char George position:-8.5,-5 scale:0.7
+George: Well done, {PlayerName}! You handled the game quite well. I’m impressed.
+
+@stop

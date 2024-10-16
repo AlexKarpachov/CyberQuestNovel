@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
-using System.Text;
-using DTT.MinigameMemory;
+using UnityEngine.SceneManagement;
 
 namespace DTT.MinigameMemory.Demo
 {
@@ -10,17 +8,19 @@ namespace DTT.MinigameMemory.Demo
     /// </summary>
     public class MemoryUIManager : MonoBehaviour
     {
+        public static bool miniGameWasPlayed = false;
+
         /// <summary>
         /// Used to get the state of the game.
         /// </summary>
         [SerializeField]
         private MemoryGameManager _gameManager;
-        
+
         /// <summary>
         /// The _levelSelectHandler field is used to navigate back to the level selection from this popup.
         /// </summary>
-        [SerializeField]
-        private MemoryGameLevelSelectHandler _levelSelectHandler;
+        /*[SerializeField]
+        private MemoryGameLevelSelectHandler _levelSelectHandler;*/
 
         /// <summary>
         /// Used to show UI for when the game is paused.
@@ -43,7 +43,8 @@ namespace DTT.MinigameMemory.Demo
             _gameManager.Started += SetPausedMenuInactive;
             _gameManager.Paused += SetPausedMenuActive;
             _gameManager.Finish += SetFinisedMenuActive;
-            
+            _gameManager.Finish += OnGameFinished;
+
             _finishedMenu._homeButton.onClick.AddListener(Home);
             _finishedMenu._restartButton.onClick.AddListener(Restart);
             _pausedMenu._restartButton.onClick.AddListener(Restart);
@@ -59,6 +60,7 @@ namespace DTT.MinigameMemory.Demo
             _gameManager.Started -= SetFinisedMenuInactive;
             _gameManager.Paused -= SetPausedMenuActive;
             _gameManager.Finish -= SetFinisedMenuActive;
+            _gameManager.Finish -= OnGameFinished;
         }
 
         /// <summary>
@@ -97,7 +99,7 @@ namespace DTT.MinigameMemory.Demo
         {
             Hide();
             _gameManager.Stop();
-            _levelSelectHandler.ShowLevelSelect();
+            // _levelSelectHandler.ShowLevelSelect();
         }
 
         /// <summary>
@@ -126,5 +128,17 @@ namespace DTT.MinigameMemory.Demo
             SetPausedMenuActive(false);
             _gameManager.Continue();
         }
+
+        private void OnGameFinished(MemoryGameResults results)
+        {
+            miniGameWasPlayed = true;
+            Invoke(nameof(LoadMainMenu), 2f);
+        }
+
+        private void LoadMainMenu()
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+
     }
 }

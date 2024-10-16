@@ -180,6 +180,9 @@ MonoBehaviour:
     - name: Location3
       pathPrefix: Scripts
       guid: f38f9b44d490bfa45aa93270aa3497c8
+    - name: Location2.1
+      pathPrefix: Scripts
+      guid: 3d1190ec296c8864a892eea40d78adc1
   - Id: Characters/52847c2c-954f-4666-8fc9-6c4d232bb125
     Resources:
     - name: Goodwin
@@ -220,3 +223,6 @@ MonoBehaviour:
     - name: City2
       pathPrefix: Backgrounds/MainBackground
       guid: dd2f95118c1a45d45ae365367cf9319d
+    - name: Market
+      pathPrefix: Backgrounds/MainBackground
+      guid: 14b88f591b7393d448f3d34c4b36ae32
