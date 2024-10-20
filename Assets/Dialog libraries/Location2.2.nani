@@ -1,0 +1,15 @@
+@back Market
+
+@char Goodwin position:-8.5,-5 scale:0.7
+{PlayerName}: (Strange... George should have been here by now. I wonder where he could have gone.)
+
+{PlayerName}: (Maybe he had something urgent to do and left without telling me. But still, he knew I was coming back with the energy sphere.)
+
+{PlayerName}: (There’s no sign of him anywhere... Maybe he went to Romulus? I remember him mentioning he had some business there recently.)
+
+@wait 0.5
+@hideChars
+@hidePrinter 
+@EdgecityToRomulus
+
+@stop

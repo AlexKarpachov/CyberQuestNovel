@@ -1,0 +1,53 @@
+@back City1
+
+@char Goodwin position:-8.5,-5 scale:0.7
+{PlayerName}: (Finally, I've made it back to Edgecity. George and Aliscent are waiting for me. Now, I have to decide who will get the energy sphere.)
+
+@char Aliscent.Aliscent_happy position:-9,-5 scale:0.22
+@hide Goodwin
+Aliscent: Welcome back, {PlayerName}. I hope you brought the energy sphere as promised. It would help me greatly in my research.
+
+@char George.G_happy position:-8.5,-5 scale:0.7
+@hide Aliscent
+George: Hey, {PlayerName}, you did a great job getting the energy sphere. Now, it’s time to hand it over to me. Remember, I asked you first!
+
+@char Goodwin position:-8.5,-5 scale:0.7
+@hide George
+{PlayerName}: (Now they both want the energy sphere. Who should I give it to?)
+
+@choice "Give the sphere to Aliscent" goto:.AliscentEnd
+@choice "Give the sphere to George" goto:.GeorgeEnd
+@choice "Keep the sphere for myself" goto:.KeepSphereEnd
+@stop
+
+# AliscentEnd
+@char Goodwin position:-8.5,-5 scale:0.7
+{PlayerName}: Aliscent, I think this sphere will be more useful for your research. Here you go.
+@hide Goodwin
+@char Aliscent.Aliscent_happy position:-9,-5 scale:0.22
+Aliscent: Thank you, {PlayerName}. You won't regret this.
+@char George.G_angry position:-8.5,-5 scale:0.7
+@hide Aliscent
+George: Hey, man! What the heck? You betrayed my trust. I'm going back to Edgecity.
+@stop
+
+# GeorgeEnd
+@char Goodwin position:-8.5,-5 scale:0.7
+{PlayerName}: George, you did ask first, and you've helped me a lot. The sphere is yours.
+@hide Goodwin
+@char George.G_happy position:-8.5,-5 scale:0.7
+George: Excellent! Thanks, {PlayerName}. This will be a great help to me.
+@hide George
+@char Aliscent.Aliscent_angry position:-9,-5 scale:0.22
+Aliscent: Keep it? But you promised to give it to me!
+@stop
+
+# KeepSphereEnd
+@char Goodwin position:-8.5,-5 scale:0.7
+{PlayerName}: On second thought, maybe I should keep the sphere. I might need it later.
+@char Aliscent.Aliscent_angry position:-9,-5 scale:0.22
+Aliscent: Keep it? But you promised to give it to me!
+@char George.G_angry position:-8.5,-5 scale:0.7
+George: I trusted you, {PlayerName}. Why are you keeping it?
+
+@stop

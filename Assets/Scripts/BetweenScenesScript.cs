@@ -1,9 +1,10 @@
+using DTT.MinigameMemory.Demo;
+using RegularScripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace DTT.MinigameMemory.Demo
+namespace RegularScripts
 {
-
     public class BetweenScenesScript : MonoBehaviour
     {
         public static BetweenScenesScript Instance;
@@ -34,17 +35,17 @@ namespace DTT.MinigameMemory.Demo
             }
         }
 
-         public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-         {
-             if (scene.name == "MainMenu" && miniGameWasPlayed)
-             {
-                 MainMenuController scene2Controller = FindObjectOfType<MainMenuController>();
-                 if (scene2Controller != null)
-                 {
-                     scene2Controller.OnSceneLoadedAction();
-                 }
-             }
-         }
+        public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            if (scene.name == "MainMenu" && miniGameWasPlayed)
+            {
+                MainMenuController scene2Controller = FindObjectOfType<MainMenuController>();
+                if (scene2Controller != null)
+                {
+                    scene2Controller.OnSceneLoadedAction();
+                }
+            }
+        }
 
         public void OnDestroy()
         {

@@ -1,0 +1,20 @@
+; English <en> to Ukrainian <uk> localization document for `Location1` naninovel script
+
+# e2f1298f
+; {PlayerName}: (Here in Romulus I should find someone to help me to find the way to the Cityport. What a nice young lady! Maybe she may help me)
+{PlayerName}: Тут, у Ромулусі, я повинен знайти когось, хто допоможе мені знайти шлях до Сітіпорту. Яка приємна молода леді! Можливо, вона зможе мені допомогти.
+# f179a893
+; {PlayerName}: Hello, charming. Maybe you can help me?
+{PlayerName}: Привіт, красуне. Можливо, ти зможеш мені допомогти?
+# 8caa5a05
+; Aliscent: Hi. Of course. What's your problem?
+Aliscent: Привіт. Звісно. В чому твоя проблема?
+# ea9944dc
+; {PlayerName}: I need to find someone who knows how to get to the Cityport.
+{PlayerName}:Мені потрібно знайти когось, хто знає, як потрапити до Сітіпорту.
+# a2c3d6ff
+; Aliscent: You should talk to George. He often knows more than others. You'll find him in Edgecity at the city market.
+Aliscent: Тобі варто поговорити з Георгом. Він часто знає більше, ніж інші. Ти знайдеш його в Еджсіті на міському ринку.
+# 685d3472
+; {PlayerName}: Thank you, I'm on my way.
+{PlayerName}: Дякую, вже їду.

@@ -19,7 +19,7 @@ namespace Naninovel.UI
         private IStateManager stateManager;
         private IScriptManager scriptManager;
 
-        protected override void Awake ()
+        protected override void Awake()
         {
             base.Awake();
 
@@ -32,7 +32,7 @@ namespace Naninovel.UI
             Debug.Assert(titleMenu && scriptPlayer != null);
         }
 
-        protected override void Start ()
+        protected override void Start()
         {
             base.Start();
 
@@ -40,7 +40,7 @@ namespace Naninovel.UI
                 UIComponent.interactable = false;
         }
 
-        protected override async void OnButtonClick ()
+        protected override async void OnButtonClick()
         {
             if (string.IsNullOrEmpty(startScriptName))
             {

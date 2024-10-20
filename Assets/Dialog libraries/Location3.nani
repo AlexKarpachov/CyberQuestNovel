@@ -1,2 +1,11 @@
+@back City2
+
+@char Goodwin position:-8.5,-5 scale:0.7
+{PlayerName}: (I’m glad I found George’s friend quickly and got the energy sphere without much trouble. Now, I just need to return to Edgecity and give it to George.)
+
+@wait 0.5
+@hideChars
+@hidePrinter 
+@cityportToEdgecity
 
 @stop

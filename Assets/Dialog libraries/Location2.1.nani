@@ -1,6 +1,31 @@
-@back City1
+@back Market
 
-@char George position:-8.5,-5 scale:0.7
+@char George.G_happy position:-8.5,-5 scale:0.7
 George: Well done, {PlayerName}! You handled the game quite well. I’m impressed.
+
+@char Goodwin position:-8.5,-5 scale:0.7
+@hide George
+{PlayerName}: Thank you, George. Now, about the way to the Cityport...
+
+@char George.G_happy position:-8.5,-5 scale:0.7
+@hide Goodwin
+George: Ah, yes. To get to the Cityport, you need to head southeast from Edgecity. It's not far, but there’s something I need from you.
+
+@char Goodwin position:-8.5,-5 scale:0.7
+@hide George
+{PlayerName}: What is it?
+
+@char George.G_happy position:-8.5,-5 scale:0.7
+@hide Goodwin
+George: I need you to bring me an energy sphere from the Cityport. It's a rare item, and I could use it for my own work.
+
+@char Goodwin position:-8.5,-5 scale:0.7
+@hide George
+{PlayerName}: Consider it done. I’ll be back with the energy sphere.
+
+@wait 0.5
+@hideChars
+@hidePrinter 
+@activateMapButton
 
 @stop

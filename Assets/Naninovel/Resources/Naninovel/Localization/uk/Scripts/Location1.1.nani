@@ -1,0 +1,49 @@
+; English <en> to Ukrainian <uk> localization document for `Location1.1` naninovel script
+
+# 3a27df5b
+; {PlayerName}: (Finally, I've made it back to Edgecity. George and Aliscent are waiting for me. Now, I have to decide who will get the energy sphere.)
+
+# abd9472f
+; Aliscent: Welcome back, {PlayerName}. I hope you brought the energy sphere as promised. It would help me greatly in my research.
+
+# 42830079
+; George: Hey, {PlayerName}, you did a great job getting the energy sphere. Now, it’s time to hand it over to me. Remember, I asked you first!
+
+# b7b53e9
+; {PlayerName}: (Now they both want the energy sphere. Who should I give it to?)
+
+# 6feeb8d4
+; @choice "Give the sphere to Aliscent" goto:.AliscentEnd
+
+# ed1fd259
+; @choice "Give the sphere to George" goto:.GeorgeEnd
+
+# 2a1289e2
+; @choice "Keep the sphere for myself" goto:.KeepSphereEnd
+
+# f9e77a77
+; {PlayerName}: Aliscent, I think this sphere will be more useful for your research. Here you go.
+
+# f356409a
+; Aliscent: Thank you, {PlayerName}. You won't regret this.
+
+# d83659a5
+; George: Hey, man! What the heck? You betrayed my trust. I'm going back to Edgecity.
+
+# f70ae2a6
+; {PlayerName}: George, you did ask first, and you've helped me a lot. The sphere is yours.
+
+# f3c2ffd4
+; George: Excellent! Thanks, {PlayerName}. This will be a great help to me.
+
+# 901d84f9
+; Aliscent: Keep it? But you promised to give it to me!
+
+# 8cdbf789
+; {PlayerName}: On second thought, maybe I should keep the sphere. I might need it later.
+
+# 901d84f9
+; Aliscent: Keep it? But you promised to give it to me!
+
+# bab224bf
+; George: I trusted you, {PlayerName}. Why are you keeping it?

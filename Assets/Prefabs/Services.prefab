@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5119131535604648785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8916765845699802821}
+  - component: {fileID: 4262127430083409894}
+  - component: {fileID: 7183284404954911308}
+  - component: {fileID: 6705704737178138917}
+  - component: {fileID: 5382778825377374381}
+  - component: {fileID: 3000078649406688930}
+  m_Layer: 0
+  m_Name: Services
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8916765845699802821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119131535604648785}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 662.8908, y: 623.1598, z: -3.1806295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4262127430083409894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119131535604648785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf321fcf090f97438a61a791a492c03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableInputUI: {fileID: 0}
+  mainMenuCanvas: {fileID: 0}
+  startButton: {fileID: 0}
+  variableInputPanel: {fileID: 0}
+  nameInputField: {fileID: 0}
+  mapButtonCanvas: {fileID: 0}
+  secondMapButtonCanvas: {fileID: 0}
+--- !u!114 &7183284404954911308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119131535604648785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd80c0e4d69254445822ed77e63b003e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6705704737178138917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119131535604648785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ada1f732676fb04dae24b114a339ff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5382778825377374381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119131535604648785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62def530ea0ca6e489bafd17b43edfe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereObjects: {fileID: 0}
+--- !u!114 &3000078649406688930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119131535604648785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7bf61103f222044924c3b0291e864c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapCanvas: {fileID: 0}
+  romulusMapButton: {fileID: 0}
+  edgecityMapButton: {fileID: 0}
+  romulusLocation: {fileID: 0}
+  edgecityLocation: {fileID: 0}
+  cityportLocation: {fileID: 0}
+  edgecityToRomulus: {fileID: 0}
+  sphereScenario: {fileID: 0}

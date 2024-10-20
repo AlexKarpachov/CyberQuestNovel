@@ -1,13 +1,13 @@
 @back Market
 
-@char George position:-8.5,-5 scale:0.7
+@char George.G_happy position:-8.5,-5 scale:0.7
 George: Hey there, stranger! You look lost. What are you looking for?
 
 @char Goodwin position:-8.5,-5 scale:0.7
 @hide George
 {PlayerName}: Hello, George. Aliscent told me you could help me find the way to the city port.
 
-@char George position:-8.5,-5 scale:0.7
+@char George.G_happy position:-8.5,-5 scale:0.7
 @hide Goodwin
 George: Aliscent, huh? She sure knows how to send people my way. Alright, I can help you. But first, I have a little game I like to play. You win, and I’ll show you the way to the port.
 
@@ -15,7 +15,7 @@ George: Aliscent, huh? She sure knows how to send people my way. Alright, I can 
 @hide George
 {PlayerName}: A game? Sure, why not. What kind of game are we talking about?
 
-@char George position:-8.5,-5 scale:0.7
+@char George.G_happy position:-8.5,-5 scale:0.7
 @hide Goodwin
 George: It’s a simple one. You need to match the cards. Ready?
 

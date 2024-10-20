@@ -166,6 +166,9 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: Settings
+      pathPrefix: UI
+      guid: 72b53d2fb287843498898155d017f1f2
   - Id: Scripts
     Resources:
     - name: MainScript
@@ -183,6 +186,12 @@ MonoBehaviour:
     - name: Location2.1
       pathPrefix: Scripts
       guid: 3d1190ec296c8864a892eea40d78adc1
+    - name: Location2.2
+      pathPrefix: Scripts
+      guid: 2a0401a83808c9e45b4b60e8401542e4
+    - name: Location1.1
+      pathPrefix: Scripts
+      guid: ef13ac64339723f469a9c401cdeb1a0f
   - Id: Characters/52847c2c-954f-4666-8fc9-6c4d232bb125
     Resources:
     - name: Goodwin
@@ -190,14 +199,20 @@ MonoBehaviour:
       guid: a08add7ef47c4604382aae522f074991
   - Id: Characters/5f546626-92d4-498c-b746-32b5abe6113f
     Resources:
-    - name: Aliscent
+    - name: Aliscent_angry
       pathPrefix: Characters/Aliscent
-      guid: e002229d689fbbe4c9813d59a31b672a
+      guid: 4c04b1d33e61375418e62f7c5b34787e
+    - name: Aliscent_happy
+      pathPrefix: Characters/Aliscent
+      guid: 34993240389e5f548850b2dca422bab1
   - Id: Characters/3b432b65-3abd-4bf3-ba21-5de1199f7b2f
     Resources:
-    - name: George
+    - name: G_angry
       pathPrefix: Characters/George
-      guid: ccd6a3581f3039947a46bb967fb56787
+      guid: f68df24927e508c4fa7213cc6f76e9b9
+    - name: G_happy
+      pathPrefix: Characters/George
+      guid: 127ec644d19ee5043803dd4ff455c63d
   - Id: CharacterAvatars
     Resources:
     - name: Goodwin

@@ -13,13 +13,8 @@ public class LoadSceneCommand : Command
         if (SceneName.HasValue)
         {
             SceneManager.LoadScene(SceneName);
-            Debug.Log($"Loading scene: {SceneName}");
         }
-        else
-        {
-            Debug.LogError("Scene name is not provided.");
-        }
-
+        
         return UniTask.CompletedTask;
     }
 }
