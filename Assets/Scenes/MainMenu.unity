@@ -1488,7 +1488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &569083372
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1671,11 +1671,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2562559616141794373, guid: 68b02d2ec054f7e4a8035769d7883289, type: 3}
       propertyPath: m_Name
-      value: Canvas
+      value: MainMenuCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 2562559616141794373, guid: 68b02d2ec054f7e4a8035769d7883289, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2562559616141794373, guid: 68b02d2ec054f7e4a8035769d7883289, type: 3}
+      propertyPath: m_TagString
+      value: MainCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 2562559616141794393, guid: 68b02d2ec054f7e4a8035769d7883289, type: 3}
       propertyPath: m_Pivot.x
@@ -6722,6 +6726,10 @@ PrefabInstance:
       propertyPath: nameInputField
       value: 
       objectReference: {fileID: 2042148347}
+    - target: {fileID: 4262127430083409894, guid: 91a078b9f9084ed4999ee3a9eb8cde13, type: 3}
+      propertyPath: globalMapButton
+      value: 
+      objectReference: {fileID: 569083371}
     - target: {fileID: 4262127430083409894, guid: 91a078b9f9084ed4999ee3a9eb8cde13, type: 3}
       propertyPath: mapButtonCanvas
       value: 

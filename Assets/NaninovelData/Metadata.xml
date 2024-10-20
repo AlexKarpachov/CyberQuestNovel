@@ -11,7 +11,7 @@
         &lt;Appearances&gt;
           &lt;string&gt;Goodwin&lt;/string&gt;
         &lt;/Appearances&gt;
-        &lt;Description&gt;Goodwin&lt;/Description&gt;
+        &lt;Description&gt;{ nameSet ? name : T_PredefinedName }&lt;/Description&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
         &lt;Id&gt;Aliscent&lt;/Id&gt;
@@ -338,10 +338,6 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;ToastUI&lt;/Path&gt;
-        &lt;Type&gt;UI&lt;/Type&gt;
-      &lt;/Resource&gt;
-      &lt;Resource&gt;
-        &lt;Path&gt;Settings&lt;/Path&gt;
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;

@@ -1,5 +1,6 @@
 using Naninovel;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScenesSwitcher : MonoBehaviour
 {

@@ -2,48 +2,49 @@
 
 # 3a27df5b
 ; {PlayerName}: (Finally, I've made it back to Edgecity. George and Aliscent are waiting for me. Now, I have to decide who will get the energy sphere.)
-
+{PlayerName}: (Нарешті, я повернувся в Еджсіті. Джордж і Алісент чекають на мене. Тепер я маю вирішити, кому віддати енергетичну сферу.)
 # abd9472f
 ; Aliscent: Welcome back, {PlayerName}. I hope you brought the energy sphere as promised. It would help me greatly in my research.
-
+Aliscent: Ласкаво просимо назад, {PlayerName}. Сподіваюся, ти приніс енергетичну сферу, як обіцяв. Вона дуже допоможе мені в дослідженнях.
 # 42830079
 ; George: Hey, {PlayerName}, you did a great job getting the energy sphere. Now, it’s time to hand it over to me. Remember, I asked you first!
-
+George: Ей, {PlayerName}, ти чудово впорався з отриманням енергетичної сфери. Тепер настав час віддати її мені. Пам’ятай, я перший попросив!
 # b7b53e9
 ; {PlayerName}: (Now they both want the energy sphere. Who should I give it to?)
-
+{PlayerName}: (Тепер вони обидва хочуть енергетичну сферу. Кому ж її віддати?)
 # 6feeb8d4
 ; @choice "Give the sphere to Aliscent" goto:.AliscentEnd
-
+@choice "Віддати сферу Алісент" goto:.AliscentEnd
 # ed1fd259
 ; @choice "Give the sphere to George" goto:.GeorgeEnd
-
+@choice "Віддати сферу Джорджу" goto:.GeorgeEnd
 # 2a1289e2
 ; @choice "Keep the sphere for myself" goto:.KeepSphereEnd
-
+@choice "Залишити сферу собі" goto:.KeepSphereEnd
 # f9e77a77
 ; {PlayerName}: Aliscent, I think this sphere will be more useful for your research. Here you go.
-
+{PlayerName}: Алісент, я думаю, що ця сфера буде кориснішою для твоїх досліджень. Тримай.
 # f356409a
 ; Aliscent: Thank you, {PlayerName}. You won't regret this.
-
+Aliscent: Дякую, {PlayerName}. Ти не пожалкуєш про це.
 # d83659a5
 ; George: Hey, man! What the heck? You betrayed my trust. I'm going back to Edgecity.
-
+George: Ей, чувак! Що за справи? Ти зрадив мою довіру. Я повертаюся в Еджсіті.
 # f70ae2a6
 ; {PlayerName}: George, you did ask first, and you've helped me a lot. The sphere is yours.
-
+{PlayerName}: Джордж, ти справді попросив перший, і ти багато допоміг мені. Сфера твоя.
 # f3c2ffd4
 ; George: Excellent! Thanks, {PlayerName}. This will be a great help to me.
-
+George: Чудово! Дякую, {PlayerName}. Це дуже мені допоможе.
 # 901d84f9
 ; Aliscent: Keep it? But you promised to give it to me!
-
+Aliscent: Залишити її? Але ти обіцяв віддати її мені!
 # 8cdbf789
 ; {PlayerName}: On second thought, maybe I should keep the sphere. I might need it later.
-
+{PlayerName}: Переосмисливши все, можливо, мені варто залишити сферу. Мені вона може знадобитися пізніше.
 # 901d84f9
 ; Aliscent: Keep it? But you promised to give it to me!
-
+Aliscent: Залишити її? Але ти обіцяв віддати її мені!
 # bab224bf
 ; George: I trusted you, {PlayerName}. Why are you keeping it?
+George: Я тобі довіряв, {PlayerName}. Чому ти вирішив залишити її собі?

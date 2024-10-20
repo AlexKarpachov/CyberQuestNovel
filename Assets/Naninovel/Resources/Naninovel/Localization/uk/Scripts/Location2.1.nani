@@ -2,18 +2,19 @@
 
 # 12d2f819
 ; George: Well done, {PlayerName}! You handled the game quite well. I’m impressed.
-
+George: Гарна робота, {PlayerName}! Ти чудово справився з грою. Я вражений.
 # bd12f7bc
 ; {PlayerName}: Thank you, George. Now, about the way to the Cityport...
-
+{PlayerName}: Дякую, Джордже. А тепер щодо шляху до Сітіпорта...
 # 7156c239
 ; George: Ah, yes. To get to the Cityport, you need to head southeast from Edgecity. It's not far, but there’s something I need from you.
-
+George: Ах, так. Щоб дістатися до Сітіпорта, тобі потрібно вирушити на південний схід від Еджсіті. Це недалеко, але є одне, що мені від тебе потрібно.
 # 641e7ba
 ; {PlayerName}: What is it?
-
+{PlayerName}: Що саме?
 # 1bf9523e
 ; George: I need you to bring me an energy sphere from the Cityport. It's a rare item, and I could use it for my own work.
-
+George: Мені потрібна енергетична сфера з Сітіпорта. Це рідкісний предмет, і він стане у нагоді для моєї роботи.
 # c1b1c066
 ; {PlayerName}: Consider it done. I’ll be back with the energy sphere.
+{PlayerName}: Вважай, що все зроблено. Я повернусь з енергетичною сферою.

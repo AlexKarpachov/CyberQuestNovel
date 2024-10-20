@@ -2,18 +2,19 @@
 
 # a72067fb
 ; George: Hey there, stranger! You look lost. What are you looking for?
-
+George: Привіт, незнайомцю! Ти виглядаєш розгубленим. Що шукаєш?
 # a9d119cb
 ; {PlayerName}: Hello, George. Aliscent told me you could help me find the way to the city port.
-
+{PlayerName}: Привіт, Джордже. Алісент сказала, що ти можеш допомогти мені знайти шлях до міського порту.
 # e2e582
 ; George: Aliscent, huh? She sure knows how to send people my way. Alright, I can help you. But first, I have a little game I like to play. You win, and I’ll show you the way to the port.
-
+George: Алісент, кажеш? Вона точно вміє направляти людей до мене. Гаразд, я можу допомогти тобі. Але спочатку я маю маленьку гру, яку люблю грати. Виграєш — і я покажу тобі шлях до порту.
 # 913a8b2e
 ; {PlayerName}: A game? Sure, why not. What kind of game are we talking about?
-
+{PlayerName}: Гра? Чому б і ні. Про яку гру йдеться?
 # 8bfc67ff
 ; George: It’s a simple one. You need to match the cards. Ready?
-
+George: Вона проста. Тобі потрібно знайти пари карт. Готовий?
 # 4599749d
 ; {PlayerName}: Alright, let's do it.
+{PlayerName}: Гаразд, давай спробуємо.
